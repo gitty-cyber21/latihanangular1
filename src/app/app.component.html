@@ -1,4 +1,10 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+
+<h1>Tugas 1 Angular</h1>
+<p>Masukkan row, column (Cth: 2,3)</p>
+<input [(ngModel)]="input"  type="text" >
+<button id="submit" (click)="hitung()">masuk</button>
+<br><br>
+{{input}} <br>
+<p>{{giliran}}</p>
+<p [innerHTML]="jawaban"></p>
+<p>{{pemenang}}</p>
