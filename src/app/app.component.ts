@@ -9,7 +9,7 @@ export class AppComponent  {
     input: String;
   giliran: String = "Giliran 1";
   jawaban: String = "*****<br>*****<br>*****<br>*****<br>*****";
-  pemenang: String;
+  menang: String;
 
   hitung() {
     var inputs = this.input.split(",");
