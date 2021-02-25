@@ -1,15 +1,15 @@
-import { Component, VERSION } from '@angular/core';
+import { Component, VERSION } from "@angular/core";
 
 @Component({
-  selector: 'my-app',
-  templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+  selector: "my-app",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.css"]
 })
-export class AppComponent  {
-    input: String;
+export class AppComponent {
+  input: String;
   giliran: String = "Giliran 1";
   jawaban: String = "*****<br>*****<br>*****<br>*****<br>*****";
-  menang: String;
+  pemenang: String;
 
   hitung() {
     var inputs = this.input.split(",");
